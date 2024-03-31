@@ -1,8 +1,12 @@
+
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.preprocessing import scale
 from sklearn.ensemble import RandomForestRegressor
+
 
 
 data = pd.read_csv('weatherHistory.csv')
